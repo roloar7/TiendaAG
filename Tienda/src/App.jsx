@@ -78,9 +78,30 @@ function App() {
             </div>
           </div>
 
-        </section>
+          <div className='container-card'>
+            <div className='imagen-box'>
+              <img src={Images.bolsos} alt="Product 6" />
+            </div>
+            <div className='titulo-card'>
+              <p className='titulo'>  Bags </p>
+            </div>
+          </div>
 
-        <section>
+          <div className='container-card'>
+            <div className='imagen-box'>
+              <img src={Images.accesorios} alt="Product 7" />
+            </div>
+            <div className='titulo-card'>
+              <p className='titulo'>  accesories </p>
+            </div>
+          </div>
+
+        </section>
+         
+        <section  className='productos-destacados-container'>
+        <h2>Productos Destacados</h2>
+        
+
 
         </section>
       </main>
