@@ -1,5 +1,6 @@
 import './App.css'
 import Images from './images.jsx';
+import Icons from './icons.jsx';
 
 function App() {
 
@@ -15,7 +16,8 @@ function App() {
             <li> <a href=""> Inicio </a> </li>
             <li> <a href=""> Shop </a> </li>
           </ul>
-          <ul className='carrito-'>
+          <ul className='carrito-box'>
+            <img src={Icons.carrito} alt="Carrito"/>
             <li> <a href=""> Carrito (0) </a> </li>
           </ul>
         </nav>
@@ -24,12 +26,12 @@ function App() {
       {/* Estructura del main */}
       <main className='main-container'>
         <section className='grid-container'>
-          <div className='contenedor-card'>
+          <div className='container-card'>
             <div className='imagen-box'>
               <img src={Images.essentialUno} alt="Product 1" />
             </div>
             <div className='titulo-card'>
-              <p className='titulo'> Essential </p>
+              <p className='titulo'> ESSENTIAL </p>
             </div>
           </div>
           <div className='container-card'>

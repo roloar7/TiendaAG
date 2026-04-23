@@ -27,6 +27,12 @@ nav {
   gap: 20px;
 }
 
+.carrito-box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
 .main-container {
   padding-top: 90px;
   display: flex;
@@ -39,6 +45,8 @@ nav {
 .grid-container {
   display: flex;
   gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .container-card {
@@ -69,3 +77,8 @@ nav {
   transition: 0.6s ease-in;
 }
 
+.titulo-card {
+  display: flex;
+  align-items: center;
+  height: 50px;
+}
