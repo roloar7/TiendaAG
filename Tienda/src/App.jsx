@@ -103,8 +103,10 @@ function App() {
             <div className='productos'>
               <p>Nike x NOCTA Tech Fleece Hoodie & Joggers Set</p>
               <img src={Images.noctanegro} alt="" className='card' />
+
             </div>
           </div>
+          <div className='productos'></div>
         </section>
 
       </main>
