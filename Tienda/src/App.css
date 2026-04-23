@@ -106,19 +106,9 @@ nav {
 }
 
 .productos{
-  border-radius:  autopx;
-    box-shadow: 0 0 95px #00d4ff;
-
-     background-color: #000205;
-    color: #ffffff;
-    font-family: Arial, sans-serif;
-    
-    
-    
-
+  font-family: Arial, sans-serif;
 }
 
-.card:hover {
-    transform: scale(0.20);
-    min-height: auto;
+.card {
+  
 }
