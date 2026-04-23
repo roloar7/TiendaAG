@@ -92,16 +92,25 @@ function App() {
               <img src={Images.accesorios} alt="Product 7" />
             </div>
             <div className='titulo-card'>
-              <p className='titulo'>  accesories </p>
+              <p className='titulo'>  Accesories </p>
             </div>
           </div>
 
         </section>
          
         <section  className='productos-destacados-container'>
-        <h2>Productos Destacados</h2>
-        
 
+       <div className='box-destacados'><h2 className='destacados'>Productos Destacados</h2>
+
+         <div className='productos'>
+          <p>Nike x NOCTA Tech Fleece Hoodie & Joggers Set</p>
+             <img src={Images.noctanegro} alt="" />
+             
+
+
+         </div>
+
+         </div>
 
         </section>
       </main>

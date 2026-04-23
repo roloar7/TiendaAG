@@ -91,4 +91,34 @@ nav {
  width: 100%;
  display: flex;
  justify-content: center;
+
+}
+.box-destacados{
+
+
+
+
+}
+
+.destacados{
+ padding: 20px;
+  width: 100%;
+}
+
+.productos{
+  border-radius:  autopx;
+    box-shadow: 0 0 95px #00d4ff;
+
+     background-color: #000205;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    
+    
+    
+
+}
+
+.card:hover {
+    transform: scale(0.20);
+    min-height: auto;
 }
