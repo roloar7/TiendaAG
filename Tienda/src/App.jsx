@@ -98,15 +98,39 @@ function App() {
 
         </section>
 
+            {/* Estructura productos destacados */}
+
         <section className='productos-destacados-container'>
           <div className='box-destacados'><h2 className='destacados'>Productos Destacados</h2>
             <div className='productos'>
               <p>Nike x NOCTA Tech Fleece Hoodie & Joggers Set</p>
               <img src={Images.noctanegro} alt="" className='card' />
+              <p>$80</p>
 
+
+              
+{/*
             </div>
           </div>
           <div className='productos'></div>
+          <p className='valley-destacados'>valley dreams rhinestone black denim short</p>
+          <img src= {Images.shortvalley} alt="" className='card'/>
+          <p class="precio">$100</p>
+          <div>
+
+          </div>
+
+          
+
+          <div className='productos'></div>
+          <p className='corteiz-destacados'>Supreme Corteiz Rules The World</p>
+          <img src= {Images.corteizsupreme} alt="" className='card'/>
+          <p class="precio">$100</p>
+          <div>
+            
+          </div>
+*/}
+                          
         </section>
 
       </main>

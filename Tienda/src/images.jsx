@@ -8,6 +8,8 @@ import cinturones from './assets/Images/cinturones.jpg';
 import bolsos from './assets/images/bolsos.jpeg';
 import accesorios from './assets/images/accesorios.jpg';
 import noctanegro from './assets/Images/noctanegro.png'
+import shortvalley from './assets/images/shortvalley.png';
+import corteizsupreme from './assets/images/corteizsupreme.png';
 // Las agrupamos en un objeto para exportarlas
 
 const Images = {
@@ -19,7 +21,9 @@ const Images = {
     cinturones: cinturones,
     bolsos: bolsos,
     accesorios: accesorios,
-    noctanegro: noctanegro
+    noctanegro: noctanegro,
+    shortvalley: shortvalley,
+    corteizsupreme: corteizsupreme,
 };
 
 export default Images;
