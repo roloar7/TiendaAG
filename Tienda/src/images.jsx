@@ -7,8 +7,9 @@ import remeras from './assets/Images/remeras.jpg';
 import cinturones from './assets/Images/cinturones.jpg';
 import bolsos from './assets/images/bolsos.jpeg';
 import accesorios from './assets/images/accesorios.jpg';
-import noctanegro from './assets/Images/nike nocta negro.png'
+import noctanegro from './assets/Images/noctanegro.png'
 // Las agrupamos en un objeto para exportarlas
+
 const Images = {
     zapatillas: zapatillas,
     essentialPantalon: essentialPantalon,

@@ -97,22 +97,16 @@ function App() {
           </div>
 
         </section>
-         
-        <section  className='productos-destacados-container'>
 
-       <div className='box-destacados'><h2 className='destacados'>Productos Destacados</h2>
-
-         <div className='productos'>
-          <p>Nike x NOCTA Tech Fleece Hoodie & Joggers Set</p>
-             <img src={Images.noctanegro} alt="" />
-             
-
-
-         </div>
-
-         </div>
-
+        <section className='productos-destacados-container'>
+          <div className='box-destacados'><h2 className='destacados'>Productos Destacados</h2>
+            <div className='productos'>
+              <p>Nike x NOCTA Tech Fleece Hoodie & Joggers Set</p>
+              <img src={Images.noctanegro} alt="" className='card' />
+            </div>
+          </div>
         </section>
+
       </main>
 
       <footer>
