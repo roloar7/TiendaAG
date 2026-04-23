@@ -17,7 +17,7 @@ function App() {
             <li> <a href=""> Shop </a> </li>
           </ul>
           <ul className='carrito-box'>
-            <img src={Icons.carrito} alt="Carrito"/>
+            <img src={Icons.carrito} alt="Carrito" />
             <li> <a href=""> Carrito (0) </a> </li>
           </ul>
         </nav>
@@ -28,10 +28,10 @@ function App() {
         <section className='grid-container'>
           <div className='container-card'>
             <div className='imagen-box'>
-              <img src={Images.essentialUno} alt="Product 1" />
+              <img src={Images.zapatillas} alt="Product 1" />
             </div>
             <div className='titulo-card'>
-              <p className='titulo'> ESSENTIAL </p>
+              <p className='titulo'> Sneakers </p>
             </div>
           </div>
           <div className='container-card'>
@@ -39,25 +39,45 @@ function App() {
               <img src={Images.essentialPantalon} alt="Product 2" />
             </div>
             <div className='titulo-card'>
-              <p className='titulo'> Essential Pantalon</p>
+              <p className='titulo'> Pants & Shorts</p>
             </div>
           </div>
           <div className='container-card'>
             <div className='imagen-box'>
-              <img src={Images.Gorras} alt="Product 3" />
+              <img src={Images.remeras} alt="Product 3" />
             </div>
             <div className='titulo-card'>
-              <p className='titulo'> Essential Pantalon</p>
+              <p className='titulo'> Tshirts </p>
+            </div>
+          </div>
+
+          <div className='container-card'>
+            <div className='imagen-box'>
+              <img src={Images.buzos} alt="Product 4" />
+            </div>
+            <div className='titulo-card'>
+              <p className='titulo'>  Hoddie </p>
+            </div>
+          </div>
+
+          {/* Estructura del header */}
+          <div className='container-card'>
+            <div className='imagen-box'>
+              <img src={Images.Gorras} alt="Product 5" />
+            </div>
+            <div className='titulo-card'>
+              <p className='titulo'>  Cap </p>
             </div>
           </div>
           <div className='container-card'>
             <div className='imagen-box'>
-              <img src={Images.Supreme} alt="Product 4" />
+              <img src={Images.cinturones} alt="Product 6" />
             </div>
             <div className='titulo-card'>
-              <p className='titulo'> Essential Pantalon</p>
+              <p className='titulo'>  Belts </p>
             </div>
           </div>
+
         </section>
 
         <section>

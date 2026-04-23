@@ -1,16 +1,18 @@
 // Importamos las imágenes desde la carpeta local
-import essentialUno from './assets/images/Fear-Of-God-Essentials-Tracksuit-gray-new-430x430.webp';
+import zapatillas from './assets/images/zapatillas.jpeg';
 import essentialPantalon from './assets/images/Essentials-Pantalon.jpg';
 import Gorras from './assets/images/Gorras.jpeg';
-import Supreme from './assets/images/Supreme.jpeg';
-
-
+import buzos from './assets/images/buzos.jpeg';
+import remeras from './assets/Images/remeras.jpg';
+import cinturones from './assets/Images/cinturones.jpg';
 // Las agrupamos en un objeto para exportarlas
 const Images = {
-    essentialUno: essentialUno,
+    zapatillas: zapatillas,
     essentialPantalon: essentialPantalon,
     Gorras: Gorras,
-    Supreme: Supreme,
+    buzos: buzos,
+    remeras: remeras,
+    cinturones: cinturones,
 
 };
 
