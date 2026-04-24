@@ -98,92 +98,44 @@ function App() {
 
         </section>
 
-            {/* Estructura productos destacados */}
+        {/* Estructura productos destacados */}
 
         <section className='productos-destacados-container'>
-         <div className='box-destacados'>
-          <h2 className='destacados'>Productos Destacados</h2></div>
-
+          <div className='box-destacados'>
+            <h2 className='destacados'>Productos Destacados</h2></div>
           <div className='section-articulos'>
-        
-              <div className='producto'>
-
-            <img src={Images.noctanegro} alt="" className='card' /> 
-           
-            
+            <div className='producto'>
+              <img src={Images.noctanegro} alt="" className='card' />
               <p>Nike x NOCTA Tech Fleece Hoodie & Joggers Set</p>
-              
               <p className='precio'>$80</p>
 
-         
 
-            
-          </div>
-          <div className='producto'>
 
-            <img src={Images.shortvalley} alt="" className='card' /> 
-           
-            
+
+            </div>
+            <div className='producto'>
+              <img src={Images.shortvalley} alt="" className='card' />
               <p>VALLEY DREAMS RHINESTONE BLACK DENIM SHORT</p>
-              
-              <p className='precio'>$80</p>
+              <p className='precio'>$85</p>
 
-         
 
-            
-          </div>
-          <div className='producto'>
 
-            <img src={Images.corteizsupreme} alt="" className='card' /> 
-           
-            
+
+            </div>
+            <div className='producto'>
+              <img src={Images.corteizsupreme} alt="" className='card' />
               <p> Remera Supreme Corteiz Rules The World </p>
-              
-              <p className='precio'>$80</p>
+              <p className='precio'>$30</p>
 
-         
 
-            
-          </div>
-          <div className='producto'>
-
-            <img src={Images.burberry} alt="" className='card' /> 
-           
-            
+            </div>
+            <div className='producto'>
+              <img src={Images.burberry} alt="" className='card' />
               <p>cinturón burberry</p>
-              
               <p className='precio'>$15</p>
-
-         
-
-            
-          </div>
+            </div>
           </div>
 
-          
-
-          
-
- {/*       
-          <div className='productos'></div>
-          <p className='valley-destacados'>valley dreams rhinestone black denim short</p>
-          <img src= {Images.shortvalley} alt="" className='card'/>
-          <p class="precio">$100</p>
-          <div>
-
-          </div>
-
-          
-
-          <div className='productos'></div>
-          <p className='corteiz-destacados'>Supreme Corteiz Rules The World</p>
-          <img src= {Images.corteizsupreme} alt="" className='card'/>
-          <p class="precio">$100</p>
-          <div>
-            
-          </div>
-*/}
-                          
         </section>
 
       </main>
