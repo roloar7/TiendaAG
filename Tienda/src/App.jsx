@@ -1,36 +1,41 @@
 import './App.css'
-
 import Icons from './icons.jsx';
 import Home from './components/Home/Home.jsx';
+import Sneakers from './components/Sneakers/Sneakers.jsx';
+import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 
 function App() {
-
   return (
     <>
-      {/* Estructura del header */}
+      {/* HEADER */}
       <header className='header'>
         <nav className='navbar'>
           <ul className='nav-logo'>
             <li>Logo</li>
           </ul>
+
           <ul className='nav-links'>
-            <li> <a href=""> Inicio </a> </li>
-            <li> <a href=""> Shop </a> </li>
+            <li><Link to="/">Inicio</Link></li>
+            <li><Link to="/sneakers">Shop</Link></li>
           </ul>
+
           <ul className='carrito-box'>
             <img src={Icons.carrito} alt="Carrito" />
-            <li> <a href=""> Carrito (0) </a> </li>
+            <li><Link to="/carrito">Carrito (0)</Link></li>
           </ul>
         </nav>
       </header>
-    
-      <Home></Home>
 
-      <footer>
+      {/* RUTAS */}
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/sneakers" element={<Sneakers />} />
+      </Routes>
 
-      </footer>
+      {/* FOOTER */}
+      <footer></footer>
     </>
-  )
+  );
 }
 
-export default App
+export default App;

@@ -46,9 +46,6 @@
   display: flex;
   align-items: center;
   height: 50px;
-   
-  color: white;
-
 }
 
 .productos-destacados-section {
@@ -85,7 +82,7 @@
   object-position: center;
 }
 
-.home {
-  background-color: black;
-  color: white;
-}
+.sneakers {
+  background-color: white;
+  color: black;
+} 

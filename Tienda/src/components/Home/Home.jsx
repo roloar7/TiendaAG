@@ -1,21 +1,26 @@
-import './Home.css'
 import Images from '../images';
-
+import './Home.css'
+import { Link } from "react-router-dom";
 const Home = () => {
     return(
     <>
+    <div className='home'>
        {/* Estructura del main */}
       <main className='main-container'>
         <section className='grid-container'>
-          <div className='container-hero-card'>
+
+
+          <Link to="/sneakers" className='container-hero-card'>
             <div className='imagen-box'>
-              <img src={Images.zapatillas} alt="Product 1" />
+              <img src={Images.zapatillas} alt="Sneakers" />
             </div>
             <div className='titulo-card'>
-              <p className='titulo'> Sneakers </p>
+              <p className='titulo'>Sneakers</p>
             </div>
-          </div>
-          <div className='container-card'>
+          </Link>
+          
+
+          <div className='container-hero-card'>
             <div className='imagen-box'>
               <img src={Images.essentialPantalon} alt="Product 2" />
             </div>
@@ -23,7 +28,7 @@ const Home = () => {
               <p className='titulo'> Pants & Shorts</p>
             </div>
           </div>
-          <div className='container-card'>
+          <div className='container-hero-card'>
             <div className='imagen-box'>
               <img src={Images.remeras} alt="Product 3" />
             </div>
@@ -32,7 +37,7 @@ const Home = () => {
             </div>
           </div>
 
-          <div className='container-card'>
+          <div className='container-hero-card'>
             <div className='imagen-box'>
               <img src={Images.buzos} alt="Product 4" />
             </div>
@@ -42,7 +47,7 @@ const Home = () => {
           </div>
 
           {/* Estructura del header */}
-          <div className='container-card'>
+          <div className='container-hero-card'>
             <div className='imagen-box'>
               <img src={Images.Gorras} alt="Product 5" />
             </div>
@@ -50,7 +55,7 @@ const Home = () => {
               <p className='titulo'>  Cap </p>
             </div>
           </div>
-          <div className='container-card'>
+          <div className='container-hero-card'>
             <div className='imagen-box'>
               <img src={Images.cinturones} alt="Product 6" />
             </div>
@@ -59,7 +64,7 @@ const Home = () => {
             </div>
           </div>
 
-          <div className='container-card'>
+          <div className='container-hero-card'>
             <div className='imagen-box'>
               <img src={Images.bolsos} alt="Product 6" />
             </div>
@@ -68,7 +73,7 @@ const Home = () => {
             </div>
           </div>
 
-          <div className='container-card'>
+          <div className='container-hero-card'>
             <div className='imagen-box'>
               <img src={Images.accesorios} alt="Product 7" />
             </div>
@@ -114,6 +119,7 @@ const Home = () => {
           </div>
         </section>
       </main> 
+      </div>
     </>    
     )
 }
