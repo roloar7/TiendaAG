@@ -10,6 +10,7 @@ import accesorios from './assets/images/accesorios.jpg';
 import noctanegro from './assets/Images/noctanegro.png'
 import shortvalley from './assets/images/shortvalley.png';
 import corteizsupreme from './assets/images/corteizsupreme.png';
+import burberry from './assets/images/burberry1.png';
 // Las agrupamos en un objeto para exportarlas
 
 const Images = {
@@ -24,6 +25,7 @@ const Images = {
     noctanegro: noctanegro,
     shortvalley: shortvalley,
     corteizsupreme: corteizsupreme,
+    burberry: burberry,
 };
 
 export default Images;
