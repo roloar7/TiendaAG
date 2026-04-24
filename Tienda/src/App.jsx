@@ -26,7 +26,7 @@ function App() {
       {/* Estructura del main */}
       <main className='main-container'>
         <section className='grid-container'>
-          <div className='container-card'>
+          <div className='container-hero-card'>
             <div className='imagen-box'>
               <img src={Images.zapatillas} alt="Product 1" />
             </div>
@@ -100,44 +100,38 @@ function App() {
 
         {/* Estructura productos destacados */}
 
-        <section className='productos-destacados-container'>
+        <section className='productos-destacados-section'>
           <div className='box-destacados'>
-            <h2 className='destacados'>Productos Destacados</h2></div>
-          <div className='section-articulos'>
-            <div className='producto'>
-              <img src={Images.noctanegro} alt="" className='card' />
-              <p>Nike x NOCTA Tech Fleece Hoodie & Joggers Set</p>
-              <p className='precio'>$80</p>
-
-
-
-
-            </div>
-            <div className='producto'>
-              <img src={Images.shortvalley} alt="" className='card' />
-              <p>VALLEY DREAMS RHINESTONE BLACK DENIM SHORT</p>
-              <p className='precio'>$85</p>
-
-
-
-
-            </div>
-            <div className='producto'>
-              <img src={Images.corteizsupreme} alt="" className='card' />
-              <p> Remera Supreme Corteiz Rules The World </p>
-              <p className='precio'>$30</p>
-
-
-            </div>
-            <div className='producto'>
-              <img src={Images.burberry} alt="" className='card' />
-              <p>cinturón burberry</p>
-              <p className='precio'>$15</p>
-            </div>
+            <h2 className='destacados'>Productos Destacados</h2>
           </div>
 
-        </section>
+          <div className='productos-destacados-container'>
+            {/* Cards de productos destacados */}
+            <div className='destacados-card'>
+              <img src={Images.noctanegro} alt="" className='destacados-images' />
+              <p className='title-destacados-card'>Nike x NOCTA Tech Fleece Hoodie & Joggers Set</p>
+              <p className='price-destacados-card'>$80</p>
+            </div>
 
+            <div className='destacados-card'>
+              <img src={Images.shortvalley} alt="" className='destacados-images' />
+              <p className='title-destacados-card'>VALLEY DREAMS RHINESTONE BLACK DENIM SHORT</p>
+              <p className='price-destacados-card'>$85</p>
+            </div>
+
+            <div className='destacados-card'>
+              <img src={Images.corteizsupreme} alt="" className='destacados-images' />
+              <p className='title-destacados-card'>Remera Supreme Corteiz Rules The World</p>
+              <p className='price-destacados-card'>$30</p>
+            </div>
+
+            <div className='destacados-card'>
+              <img src={Images.burberry} alt="" className='destacados-images' />
+              <p className='title-destacados-card'>cinturón burberry</p>
+              <p className='price-destacados-card'>$15</p>
+            </div>
+          </div>
+        </section>
       </main>
 
       <footer>
