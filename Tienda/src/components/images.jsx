@@ -11,8 +11,9 @@ import noctanegro from '../assets/Images/noctanegro.png'
 import shortvalley from '../assets/images/shortvalley.png';
 import corteizsupreme from '../assets/images/corteizsupreme.png';
 import burberry from '../assets/images/burberry1.png';
-// Las agrupamos en un objeto para exportarlas
+import prueba from '../assets/images/prueba.png';
 
+// Las agrupamos en un objeto para exportarlas
 const Images = {
     zapatillas: zapatillas,
     essentialPantalon: essentialPantalon,
@@ -26,6 +27,7 @@ const Images = {
     shortvalley: shortvalley,
     corteizsupreme: corteizsupreme,
     burberry: burberry,
+    prueba: prueba,
 };
 
 export default Images;

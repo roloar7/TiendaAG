@@ -9,7 +9,6 @@ const Home = () => {
       <main className='main-container'>
         <section className='grid-container'>
 
-
           <Link to="/sneakers" className='container-hero-card'>
             <div className='imagen-box'>
               <img src={Images.zapatillas} alt="Sneakers" />

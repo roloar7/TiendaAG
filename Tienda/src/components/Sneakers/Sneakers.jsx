@@ -6,6 +6,7 @@ import "./Sneakers.css";
 const Home = () => {
     return(
          <>
+            <img src={Images.prueba} alt="" className='prueba' />
          </>
          )
 }

@@ -86,3 +86,9 @@
   background-color: white;
   color: black;
 } 
+
+.prueba {
+  width: 500px;
+  height: 500px;
+  filter: drop-shadow(0px 0px 6px rgba(67, 221, 213, 0.5));
+}
