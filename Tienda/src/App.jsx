@@ -12,7 +12,7 @@ function App() {
       <header className='header'>
         <nav className='navbar'>
           <ul className='nav-logo'>
-            <li>StockLA</li>
+            <li> <Link to="/Home">StockLA</Link></li>
           </ul>
 
           <ul className='nav-links'>

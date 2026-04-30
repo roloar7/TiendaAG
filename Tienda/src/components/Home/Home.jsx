@@ -1,6 +1,7 @@
+import { Link } from 'react-router-dom';
 import Images from '../images';
 import './Home.css'
-import { Link } from "react-router-dom";
+
 
 const Home = () => {
     return(
@@ -20,7 +21,6 @@ const Home = () => {
               <p className='titulo'>Sneakers</p>
             </div>
           </Link>
-          
           <Link to="/Pants" className='container-hero-card'>
             <div className='imagen-box'>
               <img src={Images.essentialPantalon} alt="Product 2" />
