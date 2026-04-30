@@ -3,7 +3,8 @@ import "./Pants.css";
 
 const Pants = () => {
     return (
-        <><main className='sneakers-container'>
+        <>
+        <main className='sneakers-container'>
                 <aside className='asidebar-filter'> </aside>
                 <div className='grid-box'>
                 <div class="parent-grid">

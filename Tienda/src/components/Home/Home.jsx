@@ -12,7 +12,7 @@ const Home = () => {
         </section>
         <section className='grid-container'>
 
-          <Link to="/sneakers" className='container-hero-card'>
+          <Link to="/Sneakers" className='container-hero-card'>
             <div className='imagen-box'>
               <img src={Images.zapatillas} alt="Sneakers" />
             </div>
@@ -21,14 +21,14 @@ const Home = () => {
             </div>
           </Link>
           
-          <link to="/Pants" className='container-hero-card'>
+          <Link to="/Pants" className='container-hero-card'>
             <div className='imagen-box'>
               <img src={Images.essentialPantalon} alt="Product 2" />
             </div>
             <div className='titulo-card'>
               <p className='titulo'> Pants & Shorts</p>
             </div>
-            </link>
+            </Link>
           <div className='container-hero-card'>
             <div className='imagen-box'>
               <img src={Images.remeras} alt="Product 3" />
