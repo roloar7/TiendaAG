@@ -18,14 +18,14 @@ const Home = () => {
             </div>
           </Link>
           
-          <div className='container-hero-card'>
+          <link to="/Pants" className='container-hero-card'>
             <div className='imagen-box'>
               <img src={Images.essentialPantalon} alt="Product 2" />
             </div>
             <div className='titulo-card'>
               <p className='titulo'> Pants & Shorts</p>
             </div>
-          </div>
+            </link>
           <div className='container-hero-card'>
             <div className='imagen-box'>
               <img src={Images.remeras} alt="Product 3" />

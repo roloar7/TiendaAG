@@ -12,6 +12,13 @@ import shortvalley from '../assets/images/shortvalley.png';
 import corteizsupreme from '../assets/images/corteizsupreme.png';
 import burberry from '../assets/images/burberry1.png';
 import prueba from '../assets/images/prueba.png';
+import jordan11 from '../assets/images/jordan-11-rojasfull.png'
+import jordan3 from '../assets/images/jordan3-retro.png'
+import jordan3black from '../assets/images/jordan-3-black.png'
+import jordanred3 from '../assets/images/jordan-3-whitered.png'
+import jordan42 from '../assets/images/jordan-4-whiteblack.png'
+import jordan4 from '../assets/images/jordan4-whiteblue.png'
+import jordan15 from '../assets/images/jordan-11-.png'
 
 // Las agrupamos en un objeto para exportarlas
 const Images = {
@@ -28,6 +35,13 @@ const Images = {
     corteizsupreme: corteizsupreme,
     burberry: burberry,
     prueba: prueba,
+    jordan11: jordan11,
+    jordan3: jordan3,
+    jordan42: jordan42,
+    jordan4: jordan4,
+    jordan15: jordan15,
+    jordan3black: jordan3black,
+    jordanred3 : jordanred3,
 };
 
 export default Images;

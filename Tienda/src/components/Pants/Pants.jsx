@@ -1,10 +1,9 @@
 import Images from '../images';
-import "./Sneakers.css";
+import "./Pants.css";
 
-const Sneakers = () => {
+const Pants = () => {
     return (
-        <>
-            <main className='sneakers-container'>
+        <><main className='sneakers-container'>
                 <aside className='asidebar-filter'> </aside>
                 <div className='grid-box'>
                 <div class="parent-grid">
@@ -108,8 +107,7 @@ const Sneakers = () => {
                 </div>
                 </div>
             </main>
-        </>
+               </>
     )
 }
-
-export default Sneakers
+     export default Pants
