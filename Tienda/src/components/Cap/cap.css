@@ -1,0 +1,55 @@
+.sneakers-container {
+  display: flex;
+  padding-top: 80px;
+}
+
+.asidebar-filter {
+  height: 100vh;
+  min-width: 300px;
+  border-right: 1px solid rgb(70, 70, 70);
+}
+
+.grid-box {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.parent-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 8px;
+    height: 100vh;
+    padding: 20px;
+}
+
+.sneakers-card {
+  border: 1px solid rgb(255, 255, 255);
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+    
+.img-sneakers-grid {
+  width: 300px;
+  height: 300px;
+  filter: drop-shadow(0px 0px 6px rgba(67, 221, 213, 0.5));
+  object-fit: cover ;
+}
+
+.titulo-sneakers {
+  display: flex;
+  align-items: center;
+}
+
+.descripcion-sneakers {
+  display: flex;
+  align-items: center;
+}
+
+.precio-sneakers {
+  display: flex;
+  align-items: center;
+}

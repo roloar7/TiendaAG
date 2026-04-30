@@ -28,60 +28,64 @@ const Home = () => {
             <div className='titulo-card'>
               <p className='titulo'> Pants & Shorts</p>
             </div>
-            </Link>
-          <div className='container-hero-card'>
+            </Link> 
+
+            
+          <Link to="/Tshirts" className='container-hero-card'>
             <div className='imagen-box'>
               <img src={Images.remeras} alt="Product 3" />
             </div>
-            <div className='titulo-card'>
+            <div className='titulo-card'> 
               <p className='titulo'> Tshirts </p>
             </div>
-          </div>
+           </Link>
+           
 
-          <div className='container-hero-card'>
+          <Link to="/hoodie" className='container-hero-card'>
             <div className='imagen-box'>
               <img src={Images.buzos} alt="Product 4" />
             </div>
             <div className='titulo-card'>
               <p className='titulo'>  Hoddie </p>
             </div>
-          </div>
+          </Link>
 
           {/* Estructura del header */}
-          <div className='container-hero-card'>
+          <Link to="/cap" className='container-hero-card'>
             <div className='imagen-box'>
               <img src={Images.Gorras} alt="Product 5" />
             </div>
             <div className='titulo-card'>
               <p className='titulo'>  Cap </p>
             </div>
-          </div>
-          <div className='container-hero-card'>
+          </Link>
+
+          <Link to="/belts" className='container-hero-card'>
             <div className='imagen-box'>
               <img src={Images.cinturones} alt="Product 6" />
             </div>
             <div className='titulo-card'>
               <p className='titulo'>  Belts </p>
             </div>
-          </div>
+          </Link>
 
-          <div className='container-hero-card'>
+          <Link to="/Bags" className='container-hero-card'>
             <div className='imagen-box'>
               <img src={Images.bolsos} alt="Product 6" />
             </div>
             <div className='titulo-card'>
               <p className='titulo'>  Bags </p>
             </div>
-          </div>
+          </Link>
 
-          <div className='container-hero-card'>
+          <Link to="/Accesories" className='container-hero-card'>
             <div className='imagen-box'>
               <img src={Images.accesorios} alt="Product 7" />
             </div>
             <div className='titulo-card'>
               <p className='titulo'>  Accesories </p>
             </div>
-          </div>
+          </Link>
 
         </section>
 
