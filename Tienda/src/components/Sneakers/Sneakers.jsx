@@ -6,10 +6,11 @@ import "./Sneakers.css";
 const Home = () => {
     return(
          <>
-         <div class="parent">
+< HEAD
+         div class="parent">
     <div class="div1">1</div>
    <div className='imgsnk'>
-    <img src={} alt="" className='' />
+    <img src={Images.j} alt="" className='' />
               <p className='title-destacados-card'></p>
               <p className='price-destacados-card'></p>
             </div>
@@ -34,6 +35,8 @@ const Home = () => {
     <div class="div19">19</div>
     <div class="div20">20</div>
 </div>
+=======
+            <img src={Images.prueba} alt="" className='prueba' />
          </>
          )
 }

@@ -11,29 +11,35 @@ function App() {
       <header className='header'>
         <nav className='navbar'>
           <ul className='nav-logo'>
+<<<<<<< HEAD
             <li>StockLA</li>
+=======
+            <li> <Link to="/Home"> STOCKLA </Link> </li>
+>>>>>>> eb34bbe84d220b4abd130cbfcdceb08601fe6a30
           </ul>
 
           <ul className='nav-links'>
-            <li><Link to="/">Inicio</Link></li>
-            <li><Link to="/sneakers">Shop</Link></li>
+            <li><Link to="/Home">Inicio</Link></li>
+            <li><Link to="/">Shop</Link></li>
           </ul>
 
           <ul className='carrito-box'>
             <img src={Icons.carrito} alt="Carrito" />
-            <li><Link to="/carrito">Carrito (0)</Link></li>
+            <li>Carrito (0)</li>
           </ul>
         </nav>
       </header>
 
       {/* RUTAS */}
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/Home" element={<Home />} />
         <Route path="/sneakers" element={<Sneakers />} />
       </Routes>
 
       {/* FOOTER */}
-      <footer></footer>
+      <footer>
+
+      </footer>
     </>
   );
 }

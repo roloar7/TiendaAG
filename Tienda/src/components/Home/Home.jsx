@@ -1,14 +1,13 @@
 import Images from '../images';
 import './Home.css'
 import { Link } from "react-router-dom";
+
 const Home = () => {
     return(
     <>
-    <div className='home'>
-       {/* Estructura del main */}
+      {/* Estructura del main */}
       <main className='main-container'>
         <section className='grid-container'>
-
 
           <Link to="/sneakers" className='container-hero-card'>
             <div className='imagen-box'>
@@ -119,7 +118,6 @@ const Home = () => {
           </div>
         </section>
       </main> 
-      </div>
     </>    
     )
 }

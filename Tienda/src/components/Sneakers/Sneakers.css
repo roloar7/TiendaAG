@@ -87,6 +87,7 @@
   color: black;
 } 
 
+<<<<<<< HEAD
 .parent {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -160,4 +161,10 @@
 
 .div20 {
     grid-row-start: 5;
+=======
+.prueba {
+  width: 500px;
+  height: 500px;
+  filter: drop-shadow(0px 0px 6px rgba(67, 221, 213, 0.5));
+>>>>>>> eb34bbe84d220b4abd130cbfcdceb08601fe6a30
 }
