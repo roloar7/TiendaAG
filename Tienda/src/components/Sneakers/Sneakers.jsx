@@ -5,40 +5,51 @@ import "./Sneakers.css";
 
 const Home = () => {
     return(
-         <>
-< HEAD
-         div class="parent">
-    <div class="div1">1</div>
-   <div className='imgsnk'>
-    <img src={Images.j} alt="" className='' />
-              <p className='title-destacados-card'></p>
-              <p className='price-destacados-card'></p>
-            </div>
+        <>
 
-    <div class="div2">2</div>
-    <div class="div3">3</div>
-    <div class="div4">4</div>
-    <div class="div5">5</div>
-    <div class="div6">6</div>
-    <div class="div7">7</div>
-    <div class="div8">8</div>
-    <div class="div9">9</div>
-    <div class="div10">10</div>
-    <div class="div11">11</div>
-    <div class="div12">12</div>
-    <div class="div13">13</div>
-    <div class="div14">14</div>
-    <div class="div15">15</div>
-    <div class="div16">16</div>
-    <div class="div17">17</div>
-    <div class="div18">18</div>
-    <div class="div19">19</div>
-    <div class="div20">20</div>
-</div>
-=======
-            <img src={Images.prueba} alt="" className='prueba' />
-         </>
-         )
-}
+
+
+      <header>
+        <div className="parent">
+          <div className="div1">1</div>
+
+          <div className="imgsnk">
+         <img src={Images.bolsos} alt="" className='destacados-images' />
+            <p className="title-destacados-card"></p>
+            <p className="price-destacados-card"></p>
+          </div>
+
+          <div className="div2">2</div>
+          <div className="div3">3</div>
+          <div className="div4">4</div>
+          <div className="div5">5</div>
+          <div className="div6">6</div>
+          <div className="div7">7</div>
+          <div className="div8">8</div>
+          <div className="div9">9</div>
+          <div className="div10">10</div>
+          <div className="div11">11</div>
+          <div className="div12">12</div>
+          <div className="div13">13</div>
+          <div className="div14">14</div>
+          <div className="div15">15</div>
+          <div className="div16">16</div>
+          <div className="div17">17</div>
+          <div className="div18">18</div>
+          <div className="div19">19</div>
+          <div className="div20">20</div>
+        </div>
+
+        <img
+          src={Images.prueba}
+          alt=""
+          className="prueba"
+        />
+      </header>
+    </>
+  );
+};
+
+
 
 export default Home
