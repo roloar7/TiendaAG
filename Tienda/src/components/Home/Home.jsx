@@ -18,7 +18,6 @@ const Home = () => {
             </div>
           </Link>
           
-
           <div className='container-hero-card'>
             <div className='imagen-box'>
               <img src={Images.essentialPantalon} alt="Product 2" />
