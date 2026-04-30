@@ -7,6 +7,9 @@ const Home = () => {
     <>
       {/* Estructura del main */}
       <main className='main-container'>
+        <section className='banner-container'>
+          <div className='banner'></div>
+        </section>
         <section className='grid-container'>
 
           <Link to="/sneakers" className='container-hero-card'>

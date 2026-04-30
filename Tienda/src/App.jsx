@@ -27,6 +27,8 @@ function App() {
         </nav>
       </header>
 
+      
+
       {/* RUTAS */}
       <Routes>
         <Route path="/Home" element={<Home />} />
