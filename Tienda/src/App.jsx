@@ -11,11 +11,7 @@ function App() {
       <header className='header'>
         <nav className='navbar'>
           <ul className='nav-logo'>
-<<<<<<< HEAD
             <li>StockLA</li>
-=======
-            <li> <Link to="/Home"> STOCKLA </Link> </li>
->>>>>>> eb34bbe84d220b4abd130cbfcdceb08601fe6a30
           </ul>
 
           <ul className='nav-links'>
