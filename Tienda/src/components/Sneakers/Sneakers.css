@@ -86,3 +86,78 @@
   background-color: white;
   color: black;
 } 
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 10px;
+}
+    
+
+
+
+
+.div5 {
+    grid-row-start: 2;
+}
+
+.div6 {
+    grid-row-start: 2;
+}
+
+.div7 {
+    grid-row-start: 2;
+}
+
+.div8 {
+    grid-row-start: 2;
+}
+
+.div9 {
+    grid-row-start: 3;
+}
+
+.div10 {
+    grid-row-start: 3;
+}
+
+.div11 {
+    grid-row-start: 3;
+}
+
+.div12 {
+    grid-row-start: 3;
+}
+
+.div13 {
+    grid-row-start: 4;
+}
+
+.div14 {
+    grid-row-start: 4;
+}
+
+.div15 {
+    grid-row-start: 4;
+}
+
+.div16 {
+    grid-row-start: 4;
+}
+
+.div17 {
+    grid-row-start: 5;
+}
+
+.div18 {
+    grid-row-start: 5;
+}
+
+.div19 {
+    grid-row-start: 5;
+}
+
+.div20 {
+    grid-row-start: 5;
+}

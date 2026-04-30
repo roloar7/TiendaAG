@@ -11,7 +11,7 @@ function App() {
       <header className='header'>
         <nav className='navbar'>
           <ul className='nav-logo'>
-            <li>Logo</li>
+            <li>StockLA</li>
           </ul>
 
           <ul className='nav-links'>
