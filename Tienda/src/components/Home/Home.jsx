@@ -12,7 +12,7 @@ const Home = () => {
         <section className='banner-container'>
           <div className='banner'></div>
         </section>
-
++
         {/* Estructura productos destacados */}
 
         <section className='productos-destacados-section'>
