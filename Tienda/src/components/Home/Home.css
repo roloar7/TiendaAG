@@ -24,12 +24,18 @@
   object-fit: cover;
 }
 
-.grid-container {
+.grid-categorias-container {
   display: flex;
   gap: 20px;
-  flex-wrap: wrap;
+  flex-direction: column;
   justify-content: center;
-  height: 100%;
+}
+
+.grid-categorias {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 8px;
 }
 
 .container-hero-card {
@@ -68,38 +74,53 @@
 }
 
 .productos-destacados-section {
-  height: 100vh; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .box-destacados {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100px;
+  height: 50px;
 }
 
 .productos-destacados-container {
   display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
   gap: 20px;
+  overflow-x: scroll;
+  scrollbar-width: none;
+  max-width: 1200px;
+  padding: 20px;
+}
+
+.productos-destacados-container::-webkit-scrollbar {
+  display: none;
 }
 
 .destacados-card {
   display: flex;
   flex-direction: column;
-  align-items: center;
   gap: 20px;
   cursor: pointer;
   height: 100%;
+  
 }
 
-
 .destacados-images {
-  width: 300px;
-  height: 400px;
-  object-fit: cover;
+  width: 350px;
+  height: 450px;
+  object-fit:scale-down;
   object-position: center;
+  filter: drop-shadow(0px 0px 6px rgba(67, 221, 213, 0.8));
+  border: 1px solid rgb(107, 107, 107);
+}
+
+@media (max-width: 768px) {
+  .productos-destacados-container {
+    max-width: 600px;
+  }
 }
 
 @media (max-width: 450px) {
@@ -111,6 +132,10 @@
   .destacados-images {
     width: 200px;
     height: 300px;
+  }
+  
+  .productos-destacados-container {
+    max-width: 400px;
   }
 
 }

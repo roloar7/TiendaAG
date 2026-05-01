@@ -4,16 +4,59 @@ import './Home.css'
 
 
 const Home = () => {
-    return(
+  return (
     <>
       {/* Estructura del main */}
       <main className='main-container'>
+
         <section className='banner-container'>
           <div className='banner'></div>
         </section>
-        <section className='grid-container'>
 
-          <Link to="/Sneakers" className='container-hero-card'>
+        {/* Estructura productos destacados */}
+
+        <section className='productos-destacados-section'>
+          <div className='box-destacados'>
+            <h2 className='destacados'>Productos Destacados</h2>
+          </div>
+
+          <div className='productos-destacados-container'>
+            {/* Cards de productos destacados */}
+            <div className='destacados-card'>
+              <img src={Images.noctanegro} alt="" className='destacados-images' />
+              <p className='title-destacados-card'>Nike x NOCTA Tech Fleece Hoodie & Joggers Set</p>
+              <p className='price-destacados-card'>$80</p>
+            </div>
+
+            <div className='destacados-card'>
+              <img src={Images.shortvalley} alt="" className='destacados-images' />
+              <p className='title-destacados-card'>VALLEY DREAMS RHINESTONE BLACK DENIM SHORT</p>
+              <p className='price-destacados-card'>$85</p>
+            </div>
+
+            <div className='destacados-card'>
+              <img src={Images.corteizsupreme} alt="" className='destacados-images' />
+              <p className='title-destacados-card'>Remera Supreme Corteiz Rules The World</p>
+              <p className='price-destacados-card'>$30</p>
+            </div>
+
+            <div className='destacados-card'>
+              <img src={Images.cinturon} alt="" className='destacados-images' />
+              <p className='title-destacados-card'>cinturón burberry</p>
+              <p className='price-destacados-card'>$15</p>
+            </div>
+          </div>
+        </section>
+
+        {/* Estructura Categorias */}
+        <section className='grid-categorias-container'>
+          <div className='box-categorias'>
+            <h2 className='categorias'> Categorias </h2>
+          </div>
+
+          <div className="grid-categorias">
+
+            <Link to="/Sneakers" className='container-hero-card'>
             <div className='imagen-box'>
               <img src={Images.zapatillas} alt="Sneakers" />
             </div>
@@ -86,46 +129,12 @@ const Home = () => {
               <p className='titulo'>  Accesories </p>
             </div>
           </Link>
-
-        </section>
-
-        {/* Estructura productos destacados */}
-
-        <section className='productos-destacados-section'>
-          <div className='box-destacados'>
-            <h2 className='destacados'>Productos Destacados</h2>
-          </div>
-
-          <div className='productos-destacados-container'>
-            {/* Cards de productos destacados */}
-            <div className='destacados-card'>
-              <img src={Images.noctanegro} alt="" className='destacados-images' />
-              <p className='title-destacados-card'>Nike x NOCTA Tech Fleece Hoodie & Joggers Set</p>
-              <p className='price-destacados-card'>$80</p>
-            </div>
-
-            <div className='destacados-card'>
-              <img src={Images.shortvalley} alt="" className='destacados-images' />
-              <p className='title-destacados-card'>VALLEY DREAMS RHINESTONE BLACK DENIM SHORT</p>
-              <p className='price-destacados-card'>$85</p>
-            </div>
-
-            <div className='destacados-card'>
-              <img src={Images.corteizsupreme} alt="" className='destacados-images' />
-              <p className='title-destacados-card'>Remera Supreme Corteiz Rules The World</p>
-              <p className='price-destacados-card'>$30</p>
-            </div>
-
-            <div className='destacados-card'>
-              <img src={Images.burberry} alt="" className='destacados-images' />
-              <p className='title-destacados-card'>cinturón burberry</p>
-              <p className='price-destacados-card'>$15</p>
-            </div>
           </div>
         </section>
-      </main> 
-    </>    
-    )
+
+      </main>
+    </>
+  )
 }
 
 export default Home

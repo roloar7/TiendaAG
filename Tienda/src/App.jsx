@@ -17,13 +17,14 @@ function App() {
       {/* HEADER */}
       <header className='header'>
         <nav className='navbar'>
-          <ul className='nav-logo'>
-            <li> <Link to="/Home">StockLA</Link></li>
-          </ul>
-
+    
           <ul className='nav-links'>
             <li><Link to="/Home">Inicio</Link></li>
             <li><Link to="/">Shop</Link></li>
+          </ul>
+
+          <ul className='nav-logo'>
+            <li> <Link to="/Home">StockLA</Link></li>
           </ul>
 
           <ul className='carrito-box'>

@@ -19,6 +19,7 @@ import jordanred3 from '../assets/images/jordan-3-whitered.png'
 import jordan42 from '../assets/images/jordan-4-whiteblack.png'
 import jordan4 from '../assets/images/jordan4-whiteblue.png'
 import jordan15 from '../assets/images/jordan-11-.png'
+import cinturon from '../assets/images/belt.png'
 
 // Las agrupamos en un objeto para exportarlas
 const Images = {
@@ -42,6 +43,7 @@ const Images = {
     jordan15: jordan15,
     jordan3black: jordan3black,
     jordanred3 : jordanred3,
+    cinturon: cinturon,
 };
 
 export default Images;
