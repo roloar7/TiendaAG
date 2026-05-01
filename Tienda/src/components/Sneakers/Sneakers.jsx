@@ -1,5 +1,6 @@
 import Images from '../images';
 import "./Sneakers.css";
+import { CaretBigDown } from '@boxicons/react';
 
 const Sneakers = () => {
     return (
@@ -8,18 +9,22 @@ const Sneakers = () => {
                 <aside className='asidebar-filter'>
                     <div className='title-filtros'><h3>Filtros</h3></div>
                     <div className='container-categorias'>
-                    <div className='box-categorias'>
-                    <p>Tipo De Prodcucto</p>
-                    </div>
-                    <div className='box-categorias'><p>Marcas</p>
-                    </div>
-                    <div className='box-categorias'><p>Talle</p>
-                    </div>
-                    <div className='box-categorias'><p>Color</p>
-                    </div>
+                        <div className='box-categorias'>
+                            <p>Tipo De Prodcucto</p>
+                            <CaretBigDown
+                                pack="filled"
+                                fill="#ffffff"
+                            />
+                        </div>
+                        <div className='box-categorias'>
+                            <p>Marcas</p>
+                        </div>
+                        <div className='box-categorias'><p>Talle</p>
+                        </div>
+                        <div className='box-categorias'><p>Color</p>
+                        </div>
                     </div>
                     <p></p>
-
                 </aside>
                 <div className='grid-box'>
                     <div class="parent-grid">
