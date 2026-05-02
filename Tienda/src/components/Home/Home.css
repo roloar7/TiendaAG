@@ -46,16 +46,40 @@
   scrollbar-width: none;
   max-width: 80vw;
   padding: 20px;
-  position: relative;
-  scroll-snap-type: x mandatory;
-  -webkit-overflow-scrolling: touch;
-  cursor: grab;
-  -ms-overflow-style: none;
+ 
+
 }
 
 .productos-destacados-container::-webkit-scrollbar {
   display: none;
 }
+
+.arrow-left-productos-destacados {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  transform: translateY(-10px);
+  left: 9.5vw;
+  cursor: pointer;
+}
+
+.arrow-right-productos-destacados {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  cursor: pointer;
+  right: 8.2vw;
+  transform: translateY(-10px);
+}
+
+.arrow-clicking {
+  transform: scale(0.85);
+  opacity: 0.4;
+}
+
+
+
 
 .destacados-card {
   display: flex;
