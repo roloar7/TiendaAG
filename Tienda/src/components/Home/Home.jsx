@@ -12,7 +12,7 @@ const Home = () => {
         <section className='banner-container'>
           <div className='banner'></div>
         </section>
-+
+
         {/* Estructura productos destacados */}
 
         <section className='productos-destacados-section'>
@@ -22,6 +22,22 @@ const Home = () => {
 
           <div className='productos-destacados-container'>
             {/* Cards de productos destacados */}
+            <div className='destacados-card'>
+              <img src={Images.noctanegro} alt="" className='destacados-images' />
+              <p className='title-destacados-card'>Nike x NOCTA Tech Fleece Hoodie & Joggers Set</p>
+              <p className='price-destacados-card'>$80</p>
+            </div>
+            
+            <div className='destacados-card'>
+              <img src={Images.noctanegro} alt="" className='destacados-images' />
+              <p className='title-destacados-card'>Nike x NOCTA Tech Fleece Hoodie & Joggers Set</p>
+              <p className='price-destacados-card'>$80</p>
+            </div>
+            <div className='destacados-card'>
+              <img src={Images.noctanegro} alt="" className='destacados-images' />
+              <p className='title-destacados-card'>Nike x NOCTA Tech Fleece Hoodie & Joggers Set</p>
+              <p className='price-destacados-card'>$80</p>
+            </div>
             <div className='destacados-card'>
               <img src={Images.noctanegro} alt="" className='destacados-images' />
               <p className='title-destacados-card'>Nike x NOCTA Tech Fleece Hoodie & Joggers Set</p>
