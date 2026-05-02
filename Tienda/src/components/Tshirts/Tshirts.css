@@ -9,6 +9,52 @@
   border-right: 1px solid rgb(70, 70, 70);
 }
 
+.title-filtros{
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-categorias{
+  padding: 0px 20px;
+  padding-top: 40px;
+}
+
+.box-categorias{
+border-bottom: 1px solid #ccc;
+  padding: 10px 0;
+  position: relative;
+}
+.icon {
+  display: flex;
+  transition: transform 0.3s ease;
+}
+
+.box-categorias[open] .icon {
+  transform: rotate(180deg);
+}
+.summary{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.subcate{
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  position: static;
+}
+.subcate label{
+   display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+
 .grid-box {
   display: flex;
   justify-content: center;
