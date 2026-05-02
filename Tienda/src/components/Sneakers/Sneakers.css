@@ -22,12 +22,34 @@
 }
 
 .box-categorias{
-  border-bottom: 1px solid rgb(70, 70, 70); 
-  display: flex;
-  align-items: center;
-  height: 50px;
-  justify-content: space-between;
+border-bottom: 1px solid #ccc;
+  padding: 10px 0;
+  position: relative;
 }
+
+.box-categorias[open] .icon {
+  transform: rotate(180deg);
+}
+.summary{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.subcate{
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  position: static;
+}
+.subcate label{
+   display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
 
 .grid-box {
   display: flex;

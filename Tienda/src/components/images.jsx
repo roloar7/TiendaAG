@@ -20,6 +20,11 @@ import jordan42 from '../assets/images/jordan-4-whiteblack.png'
 import jordan4 from '../assets/images/jordan4-whiteblue.png'
 import jordan15 from '../assets/images/jordan-11-.png'
 import cinturon from '../assets/images/belt.png'
+import jordan3white from "../assets/Images/jordan3-fullwhite.png"
+import jordan4blackyellow from "../assets/Images/jordan4-blackyellow.png"
+import jordan11cherry from "../assets/Images/jordan11-cherry.png"
+import jordan11grey from "../assets/Images/jordan11-fullgrey.png"
+import jordan11gammay from "../assets/Images/jordan11-gammablue.png"
 
 // Las agrupamos en un objeto para exportarlas
 const Images = {
@@ -44,6 +49,11 @@ const Images = {
     jordan3black: jordan3black,
     jordanred3 : jordanred3,
     cinturon: cinturon,
+    jordan3white: jordan3white,
+    jordan4blackyellow: jordan4blackyellow,
+    jordan11cherry: jordan11cherry,
+    jordan11grey: jordan11grey,
+    jordan11gammay: jordan11gammay
 };
 
 export default Images;
