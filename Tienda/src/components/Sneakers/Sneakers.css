@@ -1,12 +1,20 @@
 .sneakers-container {
-  display: flex;
   padding-top: 80px;
+  display: flex;
+}
+
+.asidebar-filter-hitbox {
+  height: 100vh;
+  min-width: 300px;
+  
 }
 
 .asidebar-filter {
   height: 100vh;
-  min-width: 300px;
+  width: 300px;
   border-right: 1px solid rgb(70, 70, 70);
+  position: fixed;
+  z-index: 100;
 }
 
 .title-filtros{
@@ -22,18 +30,17 @@
 }
 
 .box-categorias{
-border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
   padding: 10px 0;
-  position: relative;
 }
 .icon {
   display: flex;
-  transition: transform 0.3s ease;
 }
 
 .box-categorias[open] .icon {
   transform: rotate(180deg);
 }
+
 .summary{
   display: flex;
   justify-content: space-between;
@@ -49,7 +56,7 @@ border-bottom: 1px solid #ccc;
   position: static;
 }
 .subcate label{
-   display: flex;
+  display: flex;
   align-items: center;
   gap: 8px;
 }
@@ -59,15 +66,15 @@ border-bottom: 1px solid #ccc;
   display: flex;
   justify-content: center;
   width: 100%;
+  padding: 20px;
 }
 
-.parent-grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(4, 1fr);
-    gap: 8px;
-    height: 100vh;
-    padding: 20px;
+.grid-sneakers {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  gap: 8px;
+  width: 100%;
 }
 
 .sneakers-card {
@@ -76,13 +83,27 @@ border-bottom: 1px solid #ccc;
   display: flex;
   flex-direction: column;
   gap: 5px;
+  height: fit-content;
+  width: 100%;
 }
-    
+
+.img-sneakers-box {
+  display: flex;
+  justify-content: center;
+  height: 30vh;
+  box-sizing: border-box;
+  padding-bottom: 10px; 
+}
+
 .img-sneakers-grid {
-  width: 300px;
-  height: 300px;
+  max-height: none;
+  width: 100%;
   filter: drop-shadow(0px 0px 6px rgba(67, 221, 213, 0.5));
-  object-fit: cover ;
+  object-fit: cover;
+  aspect-ratio: 1/1;
+  overflow-clip-margin: content-box;
+  overflow-x: clip;
+  overflow-y: clip;
 }
 
 .titulo-sneakers {
@@ -100,3 +121,33 @@ border-bottom: 1px solid #ccc;
   align-items: center;
 }
 
+@media (max-width: 1024px) {
+  
+  .asidebar-filter-hitbox {
+    min-width: 200px;
+  }
+
+  .asidebar-filter {
+    width: 200px;
+  }
+}
+
+@media (max-width: 768px) {
+  
+  .asidebar-filter-hitbox {
+    display: none;
+  }
+
+  .asidebar-filter {
+    display: none;
+  }
+
+  .grid-sneakers {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+  }
+
+  .img-sneakers-box {
+    height: 150px;
+  }
+}

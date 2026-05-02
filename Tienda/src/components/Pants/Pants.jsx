@@ -6,6 +6,7 @@ import { CaretBigDown } from '@boxicons/react';
 const Pants = () => {
     return (
         <>
+<<<<<<< Updated upstream
         <main className='sneakers-container'>
                 <aside className='asidebar-filter'> 
                      <div className='title-filtros'><h3>Filtros</h3></div>
@@ -208,6 +209,10 @@ const Pants = () => {
                 </div>
             </main>
                </>
+=======
+        
+        </>
+>>>>>>> Stashed changes
     )
 }
      export default Pants
