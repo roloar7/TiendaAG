@@ -12,7 +12,7 @@ const Sneakers = () => {
                         <details className='box-categorias'>
                             <summary className='summary'>
                                 <p>Tipo De Prodcucto</p>
-                                <span>
+                                <span className='icon'>
                                     <CaretBigDown
                                         pack="filled"
                                         fill="#ffffff"
@@ -34,7 +34,7 @@ const Sneakers = () => {
                         <details className='box-categorias'>
                             <summary className='summary'>
                                 <p>Marcas</p>
-                                <span>
+                                <span className='icon'>
                                     <CaretBigDown
                                         pack="filled"
                                         fill="#ffffff"
@@ -87,7 +87,7 @@ const Sneakers = () => {
                         <details className='box-categorias'>
                             <summary className='summary'>
                                 <p>Color</p>
-                                <span>
+                                <span className='icon'>
                                     <CaretBigDown
                                         pack="filled"
                                         fill="#ffffff"

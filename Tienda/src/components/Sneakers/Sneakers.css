@@ -26,6 +26,10 @@ border-bottom: 1px solid #ccc;
   padding: 10px 0;
   position: relative;
 }
+.icon {
+  display: flex;
+  transition: transform 0.3s ease;
+}
 
 .box-categorias[open] .icon {
   transform: rotate(180deg);

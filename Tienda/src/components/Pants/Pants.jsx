@@ -5,7 +5,18 @@ const Pants = () => {
     return (
         <>
         <main className='sneakers-container'>
-                <aside className='asidebar-filter'> </aside>
+                <aside className='asidebar-filter'> 
+                    <div className='title-filtros'><h3>Filtros</h3></div>
+                     <summary className='summary'>
+                                <p>Tipo De Prodcucto</p>
+
+                                   
+                                
+                            </summary>
+                           
+                             
+                   
+                </aside>
                 <div className='grid-box'>
                 <div class="parent-grid">
                     <div class="div1" className='sneakers-card'>
